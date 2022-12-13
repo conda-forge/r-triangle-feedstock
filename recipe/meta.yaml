@@ -1,4 +1,4 @@
-{% set version = '0.12' %}
+{% set version = "1.0" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,11 +10,11 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/triangle_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/triangle/triangle_{{ version }}.tar.gz
-  sha256: 47ba55f67ccd8e2427da0a80e93ada0a4c0a1fbed5cb4e18a07e425f4fa263b3
+  sha256: f49064befa0cb5ba7cca4e964b014bd8d72fcf22f06e32e72466f5aad5cb886e
 
 build:
-  merge_build_host: True  # [win]
-  number: 1
+  merge_build_host: true  # [win]
+  number: 0
   noarch: generic
   rpaths:
     - lib/R/lib/
@@ -40,8 +40,8 @@ about:
   summary: Provides the "r, q, p, and d" distribution functions for the triangle distribution.
   license_family: GPL2
   license_file:
-    - '{{ environ["PREFIX"] }}/lib/R/share/licenses/GPL-2'
-    - '{{ environ["PREFIX"] }}/lib/R/share/licenses/GPL-3'
+    - {{ environ["PREFIX"] }}/lib/R/share/licenses/GPL-2
+    - {{ environ["PREFIX"] }}/lib/R/share/licenses/GPL-3
 
 extra:
   recipe-maintainers:
