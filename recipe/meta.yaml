@@ -26,8 +26,10 @@ requirements:
     - cross-r-base {{ r_base }}    # [build_platform != target_platform]
   host:
     - r-base
+    - r-assertthat
   run:
     - r-base
+    - r-assertthat
 
 test:
   commands:
