@@ -1,11 +1,11 @@
-About r-triangle
-================
+About r-triangle-feedstock
+==========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-triangle-feedstock/blob/main/LICENSE.txt)
 
 Home: https://bertcarnell.github.io/triangle/
 
 Package license: GPL-2.0-or-later
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-triangle-feedstock/blob/main/LICENSE.txt)
 
 Summary: Provides the "r, q, p, and d" distribution functions for the triangle distribution.
 
