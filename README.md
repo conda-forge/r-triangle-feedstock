@@ -7,7 +7,9 @@ Home: https://bertcarnell.github.io/triangle/
 
 Package license: GPL-2.0-or-later
 
-Summary: Provides the "r, q, p, and d" distribution functions for the triangle distribution.
+Summary: Provides the "r, q, p, and d" distribution functions for the triangle distribution.  Also includes maximum likelihood estimation of parameters.
+
+Development: https://github.com/bertcarnell/triangle/
 
 Current build status
 ====================
